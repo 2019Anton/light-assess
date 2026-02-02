@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     permissions:
       contents: read #This is required for actions/checkout
 
@@ -63,4 +63,5 @@ jobs:
           app-name: 'wa-web-app1'
           slot-name: 'Production'
           package: .
+
           
